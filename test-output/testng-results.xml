@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12791" started-at="2022-08-08T14:41:44Z" finished-at="2022-08-08T14:41:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12791" started-at="2022-08-08T14:41:44Z" finished-at="2022-08-08T14:41:57Z">
+      <class name="com.stepdefinition.LoginSteps">
+        <test-method status="PASS" signature="user_is_on_the_flipkart_page()[pri:1, instance:com.stepdefinition.LoginSteps@77cd7a0]" name="user_is_on_the_flipkart_page" duration-ms="8473" started-at="2022-08-08T20:11:44Z" finished-at="2022-08-08T20:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_on_the_flipkart_page -->
+        <test-method status="PASS" signature="user_logins_with_valid_username_and_password()[pri:2, instance:com.stepdefinition.LoginSteps@77cd7a0]" name="user_logins_with_valid_username_and_password" duration-ms="4229" started-at="2022-08-08T20:11:52Z" finished-at="2022-08-08T20:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_logins_with_valid_username_and_password -->
+        <test-method status="PASS" signature="user_must_be_directed_to_homepage()[pri:3, instance:com.stepdefinition.LoginSteps@77cd7a0]" name="user_must_be_directed_to_homepage" duration-ms="73" started-at="2022-08-08T20:11:57Z" finished-at="2022-08-08T20:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_must_be_directed_to_homepage -->
+      </class> <!-- com.stepdefinition.LoginSteps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

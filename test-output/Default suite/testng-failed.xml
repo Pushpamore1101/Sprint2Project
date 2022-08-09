@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stepdefinition.LoginSteps">
+        <methods>
+          <include name="user_logins_with_valid_username_and_password"/>
+          <include name="user_must_be_directed_to_homepage"/>
+        </methods>
+      </class> <!-- com.stepdefinition.LoginSteps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
